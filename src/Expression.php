@@ -6,5 +6,5 @@ namespace TddByExample;
 
 interface Expression
 {
-    public function reduce(string $to): Expression;
+    public function reduce(Bank $bank, string $to): Expression;
 }
